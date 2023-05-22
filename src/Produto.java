@@ -5,11 +5,11 @@ public class Produto {
     public Fornecedor fornecedor;
     public Float valorAtualizado;
 
-    public Produto(int codigoProduto, String nomeProduto, Float valorProduto, Fornecedor fornecedorProduto) {
-        Codigo = codigoProduto;
-        Nome = nomeProduto;
-        Valor = valorProduto;
-        fornecedor = fornecedorProduto;
+    public Produto(int Codigo, String Nome, Float Valor, Fornecedor fornecedor) {
+        this.Codigo = Codigo;
+        this.Nome = Nome;
+        this.Valor = Valor;
+        this.fornecedor = fornecedor;
     }
 
     public float AtualizarPreco(float valorAtualizado) {
